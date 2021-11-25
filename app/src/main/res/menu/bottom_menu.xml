@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/home"
+    android:title="@string/home"
+    android:orderInCategory="1"
+    android:icon="@drawable/ic_home"
+    />
+    <item
+        android:id="@+id/more"
+        android:title="@string/catalog"
+        android:orderInCategory="2"
+        android:icon="@drawable/ic_more"
+        />
+    <item
+        android:id="@+id/bell"
+        android:title="@string/notification"
+        android:orderInCategory="3"
+        android:icon="@drawable/ic_bell"
+        />
+    <item
+        android:id="@+id/cart"
+        android:title="@string/cart"
+        android:orderInCategory="4"
+        android:icon="@drawable/ic_cart"
+        />
+    <item
+        android:id="@+id/setting"
+        android:title="@string/settings"
+        android:orderInCategory="5"
+        android:icon="@drawable/ic_more_circle"
+        />
+</menu>
